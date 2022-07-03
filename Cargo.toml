@@ -1,0 +1,13 @@
+[package]
+name = "default-skill"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version = "^1.15", features = ["rt"] }
+futures = "^0.3"
+#vap-skill-framework = {git="https://github.com/secretsauceai/voice-assistant-protocol"}
+vap-skill-framework = {path = "../vap/vap-skill-framework"}
+dotenv = "^0.15"

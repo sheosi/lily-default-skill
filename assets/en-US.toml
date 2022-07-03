@@ -1,0 +1,21 @@
+[intents.main.hello]
+not-in= [] # Does this make sense? Should we make it so that we only use ftl files?
+utterances = [
+    "hi there", "hi", "hello"
+]
+#slots = [
+#    {human = "string"}
+#]
+
+
+#[intents.main.weather-meow]
+
+
+
+#[intents.on-answer.yes]
+#utterances = [
+#    "yes", "right"
+#]
+
+
+#[entities.my-entity]
