@@ -8,6 +8,6 @@ edition = "2021"
 [dependencies]
 tokio = {version = "^1.15", features = ["rt"] }
 futures = "^0.3"
-#vap-skill-framework = {git="https://github.com/secretsauceai/voice-assistant-protocol"}
-vap-skill-framework = {path = "../vap/vap-skill-framework"}
+vap-skill-framework = {git="https://github.com/secretsauceai/voice-assistant-protocol"}
+#vap-skill-framework = {path = "../vap/vap-skill-framework"}
 dotenv = "^0.15"

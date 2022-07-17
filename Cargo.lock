@@ -712,6 +712,7 @@ dependencies = [
 [[package]]
 name = "vap-common-skill"
 version = "0.1.0"
+source = "git+https://github.com/secretsauceai/voice-assistant-protocol#565174606a67d9611f8c3a8fe5a2651dea4f35d9"
 dependencies = [
  "serde",
  "serde_derive",
@@ -721,6 +722,7 @@ dependencies = [
 [[package]]
 name = "vap-skill-framework"
 version = "0.1.0"
+source = "git+https://github.com/secretsauceai/voice-assistant-protocol#565174606a67d9611f8c3a8fe5a2651dea4f35d9"
 dependencies = [
  "coap",
  "coap-lite",
